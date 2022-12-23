@@ -84,7 +84,7 @@ const moviesAPIController = {
     },
     create: (req,res) => {
         
-        console.log('create',req.body, req.params)
+        console.log('create',req.body)
         Movies
         .create(
             {

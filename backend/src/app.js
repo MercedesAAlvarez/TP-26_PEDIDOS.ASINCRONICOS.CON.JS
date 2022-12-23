@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 const app = express();
-const cors = require("cors");
+const cors = require("cors");/* SIRVE PARA QUE DOS PUERTOS PUEDAN CONECTARSE Y TRABAJAR ENTRE ELLOS, es una comunicacion interpolar entre 2 puertos.SE INSTALA CON npm i cors */
 var corsOptions = {
   origin: "*"
 };

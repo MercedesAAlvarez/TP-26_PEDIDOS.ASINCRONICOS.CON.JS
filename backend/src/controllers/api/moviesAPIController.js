@@ -27,6 +27,19 @@ const moviesAPIController = {
             }
                 res.json(respuesta);
             })
+           /* 
+           RESPONSE QUE NOS ENSEÑO EL PROFE
+
+           let response ={
+                status:200,
+                meta:{
+                    total,
+                    url,
+                    msg
+                },
+                data : movies
+            }
+            return res.status(200).json(response) */
     },
     
     'detail': (req, res) => {
